@@ -3,112 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Brian Westacott's professional portfolio website - MIS 2201 student at UMD">
-    <meta name="keywords" content="portfolio, web development, UMD, Accounting, Snowboarding, Fishing">
-    <meta name="author" content="Brian Westacott">
-
-    <title>Brian Westacott - Home | Personal Portfolio</title>
-
+    <meta name="description" content="Discover UMD - Brian Westacott's experience at University of Minnesota Duluth">
+    <title>Brian Westacott - Discover UMD | Personal Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="images/cla-logo.png" type="image/png">
 </head>
-
 <body>
 
-<nav class="navbar">
-    <div class="container">
-        <div class="logo">
-            <a href="index.html">Brian Westacott</a>
-        </div>
-
-        <ul class="nav-menu">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="discover-umd.html">Discover UMD</a></li>
-            <li><a href="UMDCardGame.html">Card Game</a></li>
-        </ul>
-
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-</nav>
-
-<header class="hero">
-    <div class="container">
-        <div class="hero-content">
-            <img src="images/brian-headshot.jpg" alt="Brian Westacott headshot" loading="lazy">
-
-            <h1>Welcome to My Portfolio</h1>
-            <p class="intro">
-                Hello! My name is Brian Westacott, and I am currently a student at the University of Minnesota Duluth pursuing a degree in Accounting.
-            </p>
-        </div>
-    </div>
-</header>
-
-<section class="introduction">
-    <div class="container">
-        <h2>About Me</h2>
-        <p>
-            I am passionate about blending financial expertise with modern technology. When I'm not studying, you can find me on the slopes or out on the water.
-        </p>
-    </div>
-</section>
-
-<section class="welcome-video">
-    <div class="container">
-        <h2>Introduction Video</h2>
-        <div class="video-container">
-            <video controls>
-                <source src="videos/sample-welcome.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-    </div>
-</section>
-
-<section class="hobbies">
-    <div class="container">
-        <h2>My Hobbies</h2>
-        <div class="hobby-grid">
-            <div class="hobby-card">
-                <img src="images/snowboarding.jpg" alt="Snowboarding">
-                <h3>Snowboarding</h3>
-                <p>I’ve been hooked on snowboarding since I first strapped in at age eight.</p>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Brian Westacott</a>
             </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="discover-umd.html" class="active">Discover UMD</a></li>
+                <li><a href="UMDCardGame.html">Card Game</a></li>
+            </ul>
+        </div>
+    </nav>
 
-            <div class="hobby-card">
-                <img src="images/fishing-canoe.jpg" alt="Fishing in canoe">
-                <h3>Fishing</h3>
-                <p>Fishing is a lifelong passion that started at age three.</p>
+    <header class="page-header">
+        <div class="container">
+            <h1>Discover UMD</h1>
+            <p>Learn why the University of Minnesota Duluth and the city of Duluth are special</p>
+        </div>
+    </header>
+
+    <section class="team-video">
+        <div class="container">
+            <h2>Team UMD Video</h2>
+            <div class="video-container">
+                <video controls preload="metadata">
+                    <source src="videos/sample-campus.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="video-credits">
+                <p><strong>Video Credits:</strong> Brian Westacott, Noah Crone, Drew Albert, and Thomas Harkey</p>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="cta">
-    <div class="container">
-        <h2>Want to Learn More?</h2>
-        <p>Explore my background, skills, and experiences</p>
-        <div class="cta-buttons">
-            <a href="about.html" class="btn btn-primary">About Me</a>
-            <a href="resume.html" class="btn btn-secondary">View Resume</a>
+    <section class="why-umd">
+        <div class="container">
+            <h2>Why I Chose UMD</h2>
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <h3>Location</h3>
+                    <p>I chose UMD for the "best of both worlds": a world-class education alongside an unparalleled outdoor playground on the shores of Lake Superior.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>Hockey</h3>
+                    <p>The atmosphere at AMSOIL Arena represents the heart of Bulldog pride and brings the entire city together.</p>
+                </div>
+                <div class="reason-card">
+                    <h3>Academics</h3>
+                    <p>The Labovitz School of Business and Economics (LSBE) offers the hands-on learning I need for my accounting foundation.</p>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<footer>
-    <div class="container">
-        <p>&copy; 2026 Brian Westacott. MIS 2201 - Spring 2026</p>
-        <p>University of Minnesota Duluth</p>
-    </div>
-</footer>
+    <section class="campus-highlights">
+        <div class="container">
+            <h2>Campus & City Highlights</h2>
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <img src="images/hartley-nature.jpg" alt="Hartley Nature Center">
+                    <h3>Hartley Nature Center</h3>
+                    <p>My favorite place to hike or trail run to disconnect and recharge.</p>
+                </div>
+                <div class="highlight-card">
+                    <img src="images/canal-park.jpg" alt="Canal Park">
+                    <h3>Canal Park</h3>
+                    <p>The vibrant heart of Duluth's maritime culture and gateway to the shoreline.</p>
+                </div>
+                <div class="highlight-card">
+                    <img src="images/griggs-beach.jpg" alt="Griggs Beach">
+                    <h3>Griggs Beach</h3>
+                    <p>The social hub of campus for volleyball and meeting new people.</p>
+                </div>
+                <div class="highlight-card">
+                    <img src="images/umd-library.jpg" alt="UMD Library">
+                    <h3>Kathryn A. Martin Library</h3>
+                    <p>My primary productivity zone for focusing on accounting coursework.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<script src="js/script.js"></script>
+    <section class="career-goals">
+        <div class="container">
+            <h2>Career Goals & Dream Companies</h2>
+            <div class="companies-grid">
+                <div class="company-card">
+                    <img src="images/deloitte-logo.png" alt="Deloitte logo">
+                    <h3>Deloitte</h3>
+                    <div class="company-info">
+                        <p><strong>Location:</strong> Minneapolis, MN</p>
+                        <p><a href="https://www.deloitte.com/us/en/careers/careers.html" target="_blank">Careers Page</a></p>
+                    </div>
+                    <div class="why-interested">
+                        <h4>Why I Want to Work Here</h4>
+                        <p>I am drawn to Deloitte for its strong culture and professional development.</p>
+                    </div>
+                </div>
+                <div class="company-card">
+                    <img src="images/cla-logo.png" alt="CLA logo">
+                    <h3>CliftonLarsonAllen</h3>
+                    <div class="company-info">
+                        <p><strong>Location:</strong> Minneapolis, MN</p>
+                        <p><a href="https://www.claconnect.com/en/careers" target="_blank">Careers Page</a></p>
+                    </div>
+                    <div class="why-interested">
+                        <h4>Why I Want to Work Here</h4>
+                        <p>I value CLA’s commitment to client service and its strong presence in Duluth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Brian Westacott. MIS 2201 - Spring 2026</p>
+            <p>University of Minnesota Duluth</p>
+        </div>
+    </footer>
 
 </body>
 </html>
